@@ -12,6 +12,7 @@
 		3018836B1BB73F4900D80490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301883691BB73F4900D80490 /* Main.storyboard */; };
 		3018836D1BB73F4900D80490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3018836C1BB73F4900D80490 /* Assets.xcassets */; };
 		301883701BB73F4900D80490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3018836E1BB73F4900D80490 /* LaunchScreen.storyboard */; };
+		301883781BB7418800D80490 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 301883771BB7418800D80490 /* pokemon.csv */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3018836C1BB73F4900D80490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3018836F1BB73F4900D80490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		301883711BB73F4900D80490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301883771BB7418800D80490 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				301883651BB73F4900D80490 /* AppDelegate.swift */,
 				301883671BB73F4900D80490 /* ViewController.swift */,
+				301883771BB7418800D80490 /* pokemon.csv */,
 				301883691BB73F4900D80490 /* Main.storyboard */,
 				3018836C1BB73F4900D80490 /* Assets.xcassets */,
 				3018836E1BB73F4900D80490 /* LaunchScreen.storyboard */,
@@ -123,6 +126,7 @@
 			files = (
 				301883701BB73F4900D80490 /* LaunchScreen.storyboard in Resources */,
 				3018836D1BB73F4900D80490 /* Assets.xcassets in Resources */,
+				301883781BB7418800D80490 /* pokemon.csv in Resources */,
 				3018836B1BB73F4900D80490 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				301883761BB73F4900D80490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
